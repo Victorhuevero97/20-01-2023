@@ -1,3 +1,4 @@
+
 header{
     background-color: rgb(245,245,245);
     
@@ -107,3 +108,48 @@ header a:hover{
 @media (min-width: 900px) {
     .productos { grid-template-columns: repeat(3, 1fr); }
   }
+
+#informacion h2{
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+
+#footerformulario{
+    background-color: #62757F;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+#pie{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#footerformulario img{
+    height: 5em;
+}
+#footerformulario ul{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color:  #778D99;
+    flex-wrap: wrap;
+    padding: 1em;
+    width: 100%;
+}
+#footerformulario ul a{
+    color:white;
+    text-decoration: none;
+
+}
+
+#footerformulario ul li{
+    list-style: none;
+    margin: 0em 1em 0em 1em;
+    
+}
+
