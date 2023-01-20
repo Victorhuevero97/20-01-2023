@@ -546,3 +546,27 @@ footer a{
     margin: 0px;
 }
 /* --------- */
+.divBonito{
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: 0 2px 15px 0 #00000057, 0 0px 0px 0 #00000057;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #ffffffb7;
+}
+
+.inputstyle{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #b6b6b6;
+}
+
+.formCascada{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
